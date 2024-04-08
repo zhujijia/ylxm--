@@ -1,0 +1,164 @@
+{
+  "groups": [
+    {
+      "name": "zzyl.aliyun",
+      "type": "com.zzyl.properties.AliIoTConfigProperties",
+      "sourceType": "com.zzyl.properties.AliIoTConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.jwt",
+      "type": "com.zzyl.properties.JwtTokenManagerProperties",
+      "sourceType": "com.zzyl.properties.JwtTokenManagerProperties"
+    },
+    {
+      "name": "zzyl.framework.oss",
+      "type": "com.zzyl.properties.AliOssConfigProperties",
+      "sourceType": "com.zzyl.properties.AliOssConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.security",
+      "type": "com.zzyl.properties.SecurityConfigProperties",
+      "sourceType": "com.zzyl.properties.SecurityConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.swagger",
+      "type": "com.zzyl.properties.SwaggerConfigProperties",
+      "sourceType": "com.zzyl.properties.SwaggerConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zzyl.aliyun.access-key-id",
+      "type": "java.lang.String",
+      "description": "访问Key",
+      "sourceType": "com.zzyl.properties.AliIoTConfigProperties"
+    },
+    {
+      "name": "zzyl.aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "description": "访问秘钥",
+      "sourceType": "com.zzyl.properties.AliIoTConfigProperties"
+    },
+    {
+      "name": "zzyl.aliyun.consumer-group-id",
+      "type": "java.lang.String",
+      "description": "消费组",
+      "sourceType": "com.zzyl.properties.AliIoTConfigProperties"
+    },
+    {
+      "name": "zzyl.aliyun.host",
+      "type": "java.lang.String",
+      "description": "域名",
+      "sourceType": "com.zzyl.properties.AliIoTConfigProperties"
+    },
+    {
+      "name": "zzyl.aliyun.iot-instance-id",
+      "type": "java.lang.String",
+      "description": "实例id",
+      "sourceType": "com.zzyl.properties.AliIoTConfigProperties"
+    },
+    {
+      "name": "zzyl.aliyun.region-id",
+      "type": "java.lang.String",
+      "description": "区域id",
+      "sourceType": "com.zzyl.properties.AliIoTConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.jwt.base64-encoded-secret-key",
+      "type": "java.lang.String",
+      "description": "签名密码",
+      "sourceType": "com.zzyl.properties.JwtTokenManagerProperties"
+    },
+    {
+      "name": "zzyl.framework.jwt.ttl",
+      "type": "java.lang.Integer",
+      "description": "有效时间",
+      "sourceType": "com.zzyl.properties.JwtTokenManagerProperties"
+    },
+    {
+      "name": "zzyl.framework.oss.access-key-id",
+      "type": "java.lang.String",
+      "description": "秘钥Id",
+      "sourceType": "com.zzyl.properties.AliOssConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.oss.access-key-secret",
+      "type": "java.lang.String",
+      "description": "秘钥",
+      "sourceType": "com.zzyl.properties.AliOssConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "桶名称",
+      "sourceType": "com.zzyl.properties.AliOssConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.oss.endpoint",
+      "type": "java.lang.String",
+      "description": "域名站点",
+      "sourceType": "com.zzyl.properties.AliOssConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.security.access-token-validity-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zzyl.properties.SecurityConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.security.defaule-password",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SecurityConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.security.ignore-url",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.zzyl.properties.SecurityConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.security.login-page",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SecurityConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.security.origins",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.zzyl.properties.SecurityConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.security.refresh-token-validity-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zzyl.properties.SecurityConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.swagger.contact-email",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SwaggerConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.swagger.contact-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SwaggerConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.swagger.contact-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SwaggerConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.swagger.description",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SwaggerConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.swagger.swagger-path",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SwaggerConfigProperties"
+    },
+    {
+      "name": "zzyl.framework.swagger.title",
+      "type": "java.lang.String",
+      "sourceType": "com.zzyl.properties.SwaggerConfigProperties"
+    }
+  ],
+  "hints": []
+}
