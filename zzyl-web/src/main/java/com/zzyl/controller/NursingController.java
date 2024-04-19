@@ -67,9 +67,9 @@ public class NursingController {
     @ApiOperation("根据名称和状态分页查询")
     @GetMapping("/plan/search")
     public ResponseResult<PageResponse<NursingPlanVo>> searchNursingPlan(
-            @ApiParam(value = "护理计划名称")
+            @ApiParam(value = "护理计划名称，可以为空")
             @RequestParam(required = false) String name,
-            @ApiParam(value = "护理计划状态")
+            @ApiParam(value = "护理计划状态，可以为空")
             @RequestParam(required = false) Integer status,
             @ApiParam(value = "页码（默认为1）")
             @RequestParam(required = false, defaultValue = "1") Integer pageNum,

@@ -47,7 +47,7 @@ public class SecurityConfig  {
 
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
-        return  authenticationConfiguration.getAuthenticationManager();
+        return  authenticationConfiguration.getAuthenticationManager();//认证管理器
     }
 
     /**

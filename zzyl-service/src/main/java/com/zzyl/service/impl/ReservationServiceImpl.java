@@ -246,6 +246,7 @@ public class ReservationServiceImpl implements ReservationService {
 
     @Override
     public void updateReservationStatus(LocalDateTime now) {
+
         reservationMapper.updateReservationStatus(now);
     }
 }

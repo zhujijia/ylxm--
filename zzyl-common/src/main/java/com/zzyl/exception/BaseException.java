@@ -5,6 +5,7 @@ import lombok.Data;
 
 /**
  * BaseException
+ *
  * @author itheima
  **/
 @Data

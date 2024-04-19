@@ -87,18 +87,15 @@ zzyl:
 
     jwt:
       base64-encoded-secret-key: $2a$10$PVtHnkj86mJgf6li/yron.LRx/cQAlaiZkBJ9BeogCNTryXJRT1YC
-      ttl: 3600000
+      ttl: 7200000
     oss:
       endpoint: oss-cn-beijing.aliyuncs.com
       accessKeyId: LTAI5tChAvPy4exBGQ5M3eGi
       accessKeySecret: yhDLqVR2stLvb0qWXLZtIbu21rQwYk
       bucketName: sky-itcastzjj
-#  wechat:
-#    appId: wxa54e0997e8b6649e
-#    appSecret: 9e4b693aa8cee71a9077e15dcac30b52
   wechat:
-    appId: wxa37ad44a9d9ab836
-    appSecret: 85ef0e856bafed3eb55e279c3a48fa49
+    appId: wx1cfae925c3309c2f
+    appSecret: a5b00e7f20023551759fdddb6b6650da
   aliyun:
     accessKeyId: LTAI5tChAvPy4exBGQ5M3eGi
     accessKeySecret: yhDLqVR2stLvb0qWXLZtIbu21rQwYk

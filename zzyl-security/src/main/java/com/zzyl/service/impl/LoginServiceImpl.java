@@ -50,9 +50,10 @@ public class LoginServiceImpl implements LoginService {
 
     @Override
     public UserVo login(UserVo userVo) {
-        //用户认证
+        //用户认证管理器
         UsernamePasswordAuthenticationToken authentication =
                 new UsernamePasswordAuthenticationToken(userVo.getUsername(), userVo.getPassword());
+        //调用UserDetailsService 接口，它的主要作用是提供用户详细信息
         Authentication authenticate = authenticationManager.authenticate(authentication);
 
         //认证Authentication对象获得内置对象UserAuth

@@ -64,13 +64,15 @@ public class NursingProjectServiceImpl implements NursingProjectService {
                 .map(NursingProject::getId)
                 .distinct()
                 .collect(Collectors.toList());
-
+//检查护理项目 ID 列表是否为空，如果为空则直接返回之前封装好的分页响应对象 projectVoPageResponse。
+// 这样做的目的是在没有查询到护理项目的情况下，避免进行后续的数据库查询和处理，提高效率并避免不必要的操作。
         if (CollUtil.isEmpty(ids)) {
             return projectVoPageResponse;
         }
-        // 查询db
+        // 根据护理项目id查询出与之关联的护理计划(批量查询)
         List<NursingProjectPlan> projectPlanList = nursingProjectPlanMapper.listAllByProjectIds(ids);
         // 转为map
+
         Map<Long, List<NursingProjectPlan>> groupBy  = projectPlanList
                 .stream()
                 .collect(Collectors.groupingBy(NursingProjectPlan::getProjectId));

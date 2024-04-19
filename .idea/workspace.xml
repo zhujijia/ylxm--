@@ -8,7 +8,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e1f60fd-337a-4da5-9a53-4c682f369850" name="Default Changelist" comment="养老项目-代码调优" />
+    <list default="true" id="3e1f60fd-337a-4da5-9a53-4c682f369850" name="Default Changelist" comment="养老项目-代码调优">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45f4770a-108d-4ab2-8506-7b37b6550373.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/45f4770a-108d-4ab2-8506-7b37b6550373.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77b05d0d-f382-4ae3-a274-269efcfb9b02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77b05d0d-f382-4ae3-a274-269efcfb9b02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77b05d0d-f382-4ae3-a274-269efcfb9b02/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77b05d0d-f382-4ae3-a274-269efcfb9b02/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql文件/zhyl-auth.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-common/src/main/java/com/zzyl/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-common/src/main/java/com/zzyl/exception/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-common/target/classes/com/zzyl/exception/BaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-common/target/classes/com/zzyl/exception/BaseException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-framework/src/main/java/com/zzyl/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-framework/src/main/java/com/zzyl/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-security/src/main/java/com/zzyl/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-security/src/main/java/com/zzyl/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-security/target/classes/com/zzyl/service/impl/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-security/target/classes/com/zzyl/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-service/src/main/java/com/zzyl/service/impl/CheckInServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-service/src/main/java/com/zzyl/service/impl/CheckInServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-service/src/main/java/com/zzyl/service/impl/NursingProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-service/src/main/java/com/zzyl/service/impl/NursingProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-service/src/main/java/com/zzyl/service/impl/ReservationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-service/src/main/java/com/zzyl/service/impl/ReservationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-service/target/classes/com/zzyl/service/impl/NursingProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-service/target/classes/com/zzyl/service/impl/NursingProjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-service/target/classes/com/zzyl/service/impl/ReservationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-service/target/classes/com/zzyl/service/impl/ReservationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-web/src/main/java/com/zzyl/controller/NursingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-web/src/main/java/com/zzyl/controller/NursingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzyl-web/target/classes/com/zzyl/controller/NursingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zzyl-web/target/classes/com/zzyl/controller/NursingController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +48,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -33,23 +59,35 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/zzyl-security/src/main/resources/mapper/ResourceMapper.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/zzyl-framework/src/main/java/com/zzyl/config/SecurityConfig.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\respository_zzyl" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="11" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="11" />
   </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="100" />
+    </hideBySeverity>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2WL2y93zBCWIgYsEIbWfMkiCIPA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,24 +96,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;Spring Boot.ZzylApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -142,13 +184,13 @@
     </configuration>
     <configuration name="ZzylApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="zzyl-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzyl.ZzylApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzyl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzyl.ZzylApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,6 +203,14 @@
         <item itemvalue="JUnit.IoTDeviceTest.selectProduceList" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -198,6 +248,46 @@
       <workItem from="1712564172068" duration="8419000" />
       <workItem from="1712589008029" duration="1181000" />
       <workItem from="1712591078971" duration="639000" />
+      <workItem from="1712643259960" duration="235000" />
+      <workItem from="1712644474997" duration="2143000" />
+      <workItem from="1712655184846" duration="3935000" />
+      <workItem from="1712676766861" duration="622000" />
+      <workItem from="1712716063791" duration="2500000" />
+      <workItem from="1712719983001" duration="1596000" />
+      <workItem from="1712739792648" duration="14396000" />
+      <workItem from="1712797750270" duration="2102000" />
+      <workItem from="1712817299954" duration="987000" />
+      <workItem from="1712837117456" duration="3901000" />
+      <workItem from="1712895613531" duration="3473000" />
+      <workItem from="1712996799693" duration="11420000" />
+      <workItem from="1713090622559" duration="622000" />
+      <workItem from="1713091680836" duration="98000" />
+      <workItem from="1713101947106" duration="17000" />
+      <workItem from="1713111961349" duration="652000" />
+      <workItem from="1713160456361" duration="8962000" />
+      <workItem from="1713225808849" duration="3088000" />
+      <workItem from="1713267830586" duration="117000" />
+      <workItem from="1713279547761" duration="100000" />
+      <workItem from="1713281854530" duration="33000" />
+      <workItem from="1713319630695" duration="2000" />
+      <workItem from="1713361034454" duration="28000" />
+      <workItem from="1713420510916" duration="3565000" />
+      <workItem from="1713495034651" duration="172000" />
+      <workItem from="1713507673599" duration="5112000" />
+      <workItem from="1713515482042" duration="1027000" />
+      <workItem from="1713517297432" duration="1838000" />
+      <workItem from="1713524963915" duration="3000" />
+      <workItem from="1713525002243" duration="51000" />
+      <workItem from="1713525062751" duration="11000" />
+      <workItem from="1713525094159" duration="375000" />
+      <workItem from="1713525541213" duration="112000" />
+      <workItem from="1713525766541" duration="61000" />
+      <workItem from="1713526072934" duration="120000" />
+      <workItem from="1713526311635" duration="217000" />
+      <workItem from="1713526544514" duration="362000" />
+      <workItem from="1713526913649" duration="30000" />
+      <workItem from="1713531583196" duration="13000" />
+      <workItem from="1713531608223" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="中州养老项目">
       <created>1696499142985</created>
@@ -267,6 +357,45 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava2:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-websocket" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin1/dev-day01" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

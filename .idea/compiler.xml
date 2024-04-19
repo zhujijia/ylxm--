@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zzyl-framework" />
         <module name="zzyl-web" />
-        <module name="zzyl-service" />
-        <module name="zzyl-common" />
         <module name="zzyl-security" />
         <module name="zzyl-pay" />
+        <module name="zzyl-framework" />
+        <module name="zzyl-service" />
+        <module name="zzyl-common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="untitled" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -79,19 +79,19 @@ public class CheckInServiceImpl implements CheckInService {
     @Transactional
     @Override
     public ResponseResult<CheckInVo> createCheckIn(CheckInDto checkInDto) {
-        //1.验证状态
+        //1.验证状态，获取老人数据，判断是否发起了请求
         ElderVo elderVo = elderService.selectByIdCardAndName(checkInDto.getElderDto().getIdCardNo(), checkInDto.getElderDto().getName());
         if (elderVo != null && checkInDto.getId() == null && !elderVo.getStatus().equals(5)) {
             return ResponseResult.error(checkInDto.getElderDto().getName() + "已经发起了申请入住");
         }
-        //获取当前登录人
+        //获取当前登录人（养老顾问）
         String subject = UserThreadLocal.getSubject();
         User user = JSON.parseObject(subject, User.class);
 
         CheckIn checkIn = BeanUtil.toBean(checkInDto, CheckIn.class);
         JSONObject jsonObject = JSON.parseObject(checkIn.getOtherApplyInfo(), JSONObject.class);
         ElderDto elderDto = checkIn.getElderDto();
-
+      // 获取老人json数据中的数据
         CheckInOtherDto checkInOtherDto = BeanUtil.toBean(checkInDto, CheckInOtherDto.class);
         elderDto.setAge(jsonObject.getInteger("age").toString());
         elderDto.setSex(jsonObject.getInteger("sex").toString());
